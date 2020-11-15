@@ -1,0 +1,11 @@
+table {
+  border: 1px solid black;
+}
+
+table tbody {
+  background-color: beige;
+}
+
+table tbody tr:hover {
+  background-color: rgb(182, 182, 150);
+}
