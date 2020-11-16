@@ -6,8 +6,8 @@ import { applyMiddleware, createStore } from "redux";
 import { Provider } from "react-redux";
 import { combineReducers } from "redux";
 import thunk from "redux-thunk";
-import { getStarWarsReducer } from "./Redux/GetStarWarsReducer";
-import { planetsDetailsReducer } from "./Redux/PlanetsDetailsReducers";
+import { getStarWarsReducer } from "./Redux/Reducer/GetStarWarsReducer";
+import { planetsDetailsReducer } from "./Redux/Reducer/PlanetsDetailsReducers";
 import logger from "redux-logger";
 import reportWebVitals from "./reportWebVitals";
 

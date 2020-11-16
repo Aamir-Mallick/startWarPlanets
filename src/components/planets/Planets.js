@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { planetsDetails } from "../../Redux/PlanetsDetailsActions";
-import { getStarWarsData } from "../../Redux/GetStarWarsAction";
+import { planetsDetails } from "../../Redux/Actions/PlanetsDetailsActions";
+import { getStarWarsData } from "../../Redux/Actions/GetStarWarsAction";
 import Modal from "react-modal";
 import MyForm from "../Form/Form";
 import { useHistory } from "react-router-dom";
